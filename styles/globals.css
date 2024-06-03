@@ -1,0 +1,25 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .hero, .features, .testimonials, .pricing, .contact {
+    padding: 4rem 0;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-500 text-white py-2 px-4 rounded;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-500 text-white py-2 px-4 rounded;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .grid-cols-2 {
+      grid-template-columns: 1fr;
+    }
+  }
+  
